@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ScreenshotterWinUI3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ScreenshotterWinUI3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
