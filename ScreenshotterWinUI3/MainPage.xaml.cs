@@ -37,7 +37,6 @@ namespace ScreenshotterWinUI3
         private CanvasDevice _canvasDevice;
         private CompositionGraphicsDevice _compositionGraphicsDevice;
         private Compositor _compositor;
-        public Compositor myCom = App.Window.Compositor;
         private CompositionDrawingSurface _surface;
         private CanvasBitmap _currentFrame;
         private string _screenshotFilename = "test.png";

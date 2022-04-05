@@ -6,6 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Frame x:Name="rootFrame"/>
-
+    <!--<Frame x:Name="rootFrame"/>-->
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1">
+            <Button Click="Button_ClickAsync" Content="Meh" />
+            <Button Click="ScreenshotButton_ClickAsync" Content="Bah"/>
+        </StackPanel>
+    </Grid>
 </Window>
