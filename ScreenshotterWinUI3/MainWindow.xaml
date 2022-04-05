@@ -12,9 +12,12 @@
             <RowDefinition Height="1*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
+        <Grid x:Name="photoSpace" Grid.Row="0">
+
+        </Grid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1">
-            <Button Click="Button_ClickAsync" Content="Meh" />
-            <Button Click="ScreenshotButton_ClickAsync" Content="Bah"/>
+            <Button Click="Button_ClickAsync" Content="Select App" />
+            <Button Click="ScreenshotButton_ClickAsync" Content="Take Screenshot"/>
         </StackPanel>
     </Grid>
 </Window>
